@@ -161,7 +161,7 @@ function CoverPage({ onEnter }: { onEnter: () => void }) {
         className="relative mb-8"
       >
         <div className="h-36 w-36 overflow-hidden rounded-full border-4 border-primary/50 shadow-2xl sm:h-44 sm:w-44">
-          <img src={profileImg} alt="Shahab Zaman Aatif" className="h-full w-full object-contain" />
+          <img src={profileImg} alt="Shahab Zaman Aatif" className="h-full w-full object-cover" />
         </div>
         <motion.div
           className="absolute -bottom-1 -right-1 rounded-full bg-primary p-2"
