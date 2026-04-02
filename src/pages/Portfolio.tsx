@@ -277,8 +277,8 @@ export default function Portfolio() {
                 className="shrink-0"
               >
                 <div className="relative">
-                  <div className="h-56 w-56 overflow-hidden rounded-2xl border-2 border-border shadow-xl sm:h-72 sm:w-72">
-                    <img src={profileImg} alt="Shahab Zaman Aatif" className="h-full w-full object-cover object-top" />
+                  <div className="h-72 w-56 overflow-hidden rounded-2xl border-2 border-border shadow-xl sm:h-96 sm:w-72">
+                    <img src={profileImg} alt="Shahab Zaman Aatif" className="h-full w-full object-cover object-center" />
                   </div>
                   <motion.div
                     className="absolute -bottom-3 -right-3 rounded-xl bg-primary px-4 py-2 shadow-lg"
