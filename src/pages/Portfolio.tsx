@@ -7,7 +7,7 @@ import {
   Coffee, ShoppingBag, Sun, Utensils, Gamepad2, BookOpen,
   MessageSquare, BarChart3, Music, Camera, Briefcase, Heart
 } from "lucide-react";
-import profileImg from "@/assets/shahab-profile.jpeg";
+import profileImg from "@/assets/shahab-profile-2.jpeg";
 
 const skills = [
   { name: "JavaScript", level: 95, icon: Terminal, color: "from-yellow-400 to-yellow-600" },
@@ -161,7 +161,7 @@ function CoverPage({ onEnter }: { onEnter: () => void }) {
         className="relative mb-8"
       >
         <div className="h-36 w-36 overflow-hidden rounded-full border-4 border-primary/50 shadow-2xl sm:h-44 sm:w-44">
-          <img src={profileImg} alt="Shahab Zaman Aatif" className="h-full w-full object-contain" />
+          <img src={profileImg} alt="Shahab Zaman Aatif" className="h-full w-full object-cover" />
         </div>
         <motion.div
           className="absolute -bottom-1 -right-1 rounded-full bg-primary p-2"
@@ -278,7 +278,7 @@ export default function Portfolio() {
               >
                 <div className="relative">
                   <div className="h-72 w-56 overflow-hidden rounded-2xl border-2 border-border shadow-xl sm:h-96 sm:w-72">
-                    <img src={profileImg} alt="Shahab Zaman Aatif" className="h-full w-full object-cover object-center" />
+                    <img src={profileImg} alt="Shahab Zaman Aatif" className="h-full w-full object-cover" />
                   </div>
                   <motion.div
                     className="absolute -bottom-3 -right-3 rounded-xl bg-primary px-4 py-2 shadow-lg"
