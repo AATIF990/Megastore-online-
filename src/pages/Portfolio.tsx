@@ -7,7 +7,7 @@ import {
   Coffee, ShoppingBag, Sun, Utensils, Gamepad2, BookOpen,
   MessageSquare, BarChart3, Music, Camera, Briefcase, Heart
 } from "lucide-react";
-import profileImg from "@/assets/shahab-profile.jpeg";
+import profileImg from "@/assets/shahab-profile-2.jpeg";
 
 const skills = [
   { name: "JavaScript", level: 95, icon: Terminal, color: "from-yellow-400 to-yellow-600" },
